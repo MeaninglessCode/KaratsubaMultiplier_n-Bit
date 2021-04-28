@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module KaratsubaMultiplier_nbit #(parameter WIDTH=1024) (
+module KaratsubaMultiplier_nbit #(parameter WIDTH=64) (
         input[WIDTH - 1:0] a,
         input[WIDTH - 1:0] b,
         output[(WIDTH * 2) - 1:0] p
